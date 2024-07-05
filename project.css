@@ -112,9 +112,7 @@ footer {
     color: indianred;
 }
 
-/* Media Queries */
 
-/* Tablet Styles */
 @media (max-width: 768px) {
     .container {
         width: 90%;
@@ -148,7 +146,7 @@ footer {
     }
 }
 
-/* Mobile Styles */
+
 @media (max-width: 480px) {
     .container {
         width: 100%;
@@ -226,13 +224,13 @@ header {
     top: 130px;
     right: 20px;
     text-align: right;
-    font-size: 90;
+    font-size:90%;
 }
 .contact-info p {
     margin: 10px 0;
 }
 .contact-info a{
-    font-size: 80;
+    font-size:80%;
     text-decoration: underline;
 
 }
@@ -279,12 +277,11 @@ button {
 
 }
 
-}
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background:whitesmoke ;
+    background:black ;
     color: white;
     position: fixed;
     width: 100%;
